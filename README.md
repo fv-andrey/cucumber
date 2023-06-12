@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/x86g15k4kd8f7m72?svg=true)](https://ci.appveyor.com/project/fv-andrey/cucumber)
