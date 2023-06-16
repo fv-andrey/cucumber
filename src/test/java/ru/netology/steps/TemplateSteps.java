@@ -44,7 +44,6 @@ public class TemplateSteps {
 
     @Тогда("баланс его {int} карты из списка на главной странице должен стать {int} рублей")
     public void balance(int index, int balance) {
-        dashboardPage.getCards().get(index - 1).shouldBe(text(Integer.toString(balance)));
-        //assertEquals(balance, dashboardPage.getCardBalance(index - 1));
+        assertEquals(balance, dashboardPage.getCardBalance(index - 1));
     }
 }

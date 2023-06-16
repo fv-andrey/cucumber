@@ -16,10 +16,6 @@ public class DashboardPage {
     public DashboardPage() {
     }
 
-    public ElementsCollection getCards() {
-        return cards;
-    }
-
     public int getCardBalance(int index) {
         var text = cards.get(index).text();
         return extractBalance(text);
